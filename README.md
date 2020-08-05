@@ -29,6 +29,7 @@ func main() {
 
 func routine(args...interface{}) {
   fmt.Println("I'll run as a goroutine")
+  panicker()
 }
 
 func panicker() {

@@ -1,6 +1,6 @@
 # MINISAFE
-Safe net for panics inside goroutines
-This is very raw port of [cookoo's](https://github.com/Masterminds/cookoo) safely.
+Safe net for panics inside goroutines.
+This is a very raw port of [cookoo's](https://github.com/Masterminds/cookoo) safely.
 Could be seen as mere copy, really... but I'm keeping it here as a personal placeholder.
 
 # Installation

@@ -5,7 +5,7 @@ import "fmt"
 type routine func()
 
 // Wraps the passed function, executes it as a goroutine,
-// but defers any recovering from potential
+// but defers any recovering from potential panick
 func Go(fn routine) {
 	go func() {
 		defer func() {
